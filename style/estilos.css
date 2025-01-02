@@ -1,0 +1,103 @@
+/*Aplicamos los estilos a toda la etiqueta body*/
+body{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+/*Estilos para la clase container*/
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+/*Aplicamos estilos a la etiqueta header*/
+header{
+    background: #004080;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 3px solid #ffd700;
+}
+
+/*Aplicamos estilos a la etiqueta h1 que esta dentro 
+de la etiqueta header*/
+header h1{
+    text-align: center;
+    margin: 0;
+    font-size: 2.5rem;
+}
+/*Aplicamos los estilos a la etiqueta nav*/
+nav{
+    text-align: center;
+    margin: 10px 0;
+}
+/*Aplicamos estilos a la etiqueta a que se encuentra dentro de la etiqueta nav*/
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+}
+/*Le damos estilos a la etiqueta a*/
+nav a:hover {
+    color: #ffd700;
+}
+/*Damos estilos a cada una de las etiquetas section*/
+section {
+    margin: 40px 0;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #004080;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+ul li img {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table th, table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+table th {
+    background: #004080;
+    color: white;
+}
+footer {
+    background: #004080;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    border-top: 3px solid #ffd700;
+}
+
+footer p {
+    margin: 0;
+}
